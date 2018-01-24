@@ -5,7 +5,7 @@ const base = require('./webpack.base.conf')
 
 var config = Object.assign({}, base)
 
-config.output.filename = 'vue-carousel-3d.min.js'
+config.output.filename = 'vedit.min.js'
 
 config.plugins = (config.plugins || []).concat([
   new webpack.optimize.UglifyJsPlugin({
