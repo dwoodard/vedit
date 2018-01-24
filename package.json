@@ -1,31 +1,26 @@
 {
   "name": "vedit",
-
   "version": "1.0.0",
-
   "description": "",
-
   "main": "dist/vedit.min.js",
-
   "scripts": {
-    "build": "webpack --config config/webpack.min.conf.js",
+    "build": "webpack --config config/webpack.min.conf.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dwoodard/vedit.git"
   },
-
+  "keywords": [
+    "Vue",
+    "edit",
+    "editable"
+  ],
   "author": "Dustin Woodard",
-
   "license": "MIT",
-
   "bugs": {
     "url": "https://github.com/dwoodard/vedit/issues"
   },
-
   "homepage": "https://github.com/dwoodard/vedit#readme",
-
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",
@@ -62,10 +57,8 @@
     "vue-loader": "^10.0.2",
     "vue-play": "2.2.0",
     "vue-play-cli": "1.0.4",
-    "vue-style-loader": "toddlawton/vue-style-loader",
     "vue-template-compiler": "^2.1.8",
     "webpack": "^1.14.0",
     "webpack-merge": "^1.1.2"
   }
-
 }
