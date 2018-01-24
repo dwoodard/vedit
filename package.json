@@ -4,7 +4,9 @@
   "description": "",
   "main": "dist/vedit.min.js",
   "scripts": {
-    "build": "webpack --config config/webpack.min.conf.js"
+    "build": "webpack --config config/webpack.min.conf.js",
+    "dev": "vue-play start --standalone"
+
   },
   "repository": {
     "type": "git",
