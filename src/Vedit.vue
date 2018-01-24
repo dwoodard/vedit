@@ -1,6 +1,8 @@
 <template>
 	<div>
-		VEDIT
+		{{foo}}
+		<slot></slot>
+		}
 	</div>
 </template>
 
@@ -11,7 +13,7 @@
 		props: {},
 		data () {
 			return {
-				
+				foo:"bar"
 			}
 		},
 		watch () {},
