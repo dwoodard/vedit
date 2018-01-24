@@ -12,6 +12,7 @@ export default {
 }
 
 export {
+	Vedit
     // Carousel3d,
     // Slide
 }
